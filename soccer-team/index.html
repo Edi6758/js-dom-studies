@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team line-up</title>
+</head>
+<body>
+    <h1>Team line-up</h1>
+    <hr>
+    <h2>Escalate player</h2>
+    <p>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+
+        <label for="position">Position</label>
+        <input type="text" name="position" id="position">
+
+        <label for="number">Number</label>
+        <input type="text" name="number" id="number">
+
+        <button onclick="addPlayer()">Go to</button>
+    </p>
+    <h2>Remove player</h2>
+    <p>
+        <label for="numberToRemove">Number</label>
+        <input type="text" name="numberToRemove" id="numberToRemove">
+
+        <button onclick="removePlayer()">Remove</button>
+    </p>
+    <h2>Team</h2>
+    <ul id="teamList"></ul>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
